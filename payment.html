@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Creating a Web Page for a dealship that sells brand new/ second hand motor bikes" />
+    <meta name="keywords" content="Web Page, Self Created, Motorbike, Ducati, Kawasaki, Dealership" />
+    <meta name="author" content="Nakshtra Yadav"  />
+    <title>All Products - Motorbike Hog</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="scripts/payment.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+            <div class="logo">
+            <img src="images/logo.png" alt="Logo" width="125">
+            </div>
+            <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="enquire.html">Enquire</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="enhancements.html">Enhancement</a></li>
+
+            
+            
+            </ul>
+        </nav>
+        
+            </div>
+          
+        
+        </div>
+        
+        </div>
+
+        <!--Payment Details-->
+        <div class="d_container">
+            <div class="row row-3">
+                <h2>Payment Details</h2>
+            </div><br>
+            <div class="rowa">
+                <div class="col-75a">
+                  <div class="containera">
+                    <form id="payform" action="https://mercury.swin.edu.au/it000000/formtest.php" method="POST">
+                    
+                      <div class="rowa">
+                        <div class="col-50a">
+                          <h3>Billing Address</h3>
+                          <label for="F_Name"><i class="fa fa-user"></i> Full Name</label>
+                          <input type="text" id="F_Name" name="F_Name" readonly>
+                          <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                          <input type="text" id="email" name="email" readonly>
+                          <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                          <input type="text" id="adr" name="address" readonly>
+                          <label for="city"><i class="fa fa-institution"></i> City</label>
+                          <input type="text" id="city" name="city" readonly>
+              
+                          <div class="row">
+                            <div class="col-50a">
+                              <label for="state">State</label>
+                              <input type="text" id="state" name="state" readonly>
+                            </div>
+                            <div class="col-50a">
+                              <label for="zip">Zip</label>
+                              <input type="text" id="zip" name="zip" readonly>
+                            </div>
+                          </div>
+                        </div>
+              
+                        <div class="col-50a">
+                          <h3>Payment</h3>
+                          <label for="fname">Accepted Cards</label>
+                          <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                          </div>
+                          <label for="cname">Name on Card</label>
+                          <input type="text" id="cname" name="cardname" >
+                          <label for="ccnum">Credit card number</label>
+                          <input type="text" id="ccnum" name="cardnumber" placeholder="1234-1234-1234-1234">
+                          <label for="expmonth">Exp Month</label>
+                          <input type="text" id="expmonth" name="expmonth" placeholder="">
+                          <div class="row">
+                            <div class="col-50a">
+                              <label for="expyear">Exp Year</label>
+                              <input type="text" id="expyear" name="expyear" placeholder="XXXX">
+                            </div>
+                            <div class="col-50a">
+                              <label for="cvv">CVV/CVC</label>
+                              <input type="text" id="cvv" name="cvv" placeholder="***">
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                      </label>
+                      <input type="submit" value="Continue to checkout" class="btna">
+                    <form action="index.html"> 
+                      <input type="reset" value="Cancel order" class="btnb">
+                      
+                    </form>
+            </div>
+            </div>
+            </div>
+
+            
+            
+        </div>
+ 
+   
+        
+
+        
+        
+        <!--footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Useful Links </h3>
+                        <ul>
+                            <li>Discounts</li>
+                            <li>Terms & Conditions</li>
+                            <li>Return Policy</li>
+                            <li>Contact Us</li>
+                            
+                        </ul>
+                    
+                    
+                    </div>
+                     <div class="footer-col-2">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Instagram</li>
+                           <li>Facebook</li>
+                           <li>Twitter</li>
+                            <li>Youtube</li>
+                            
+                        </ul>
+                    
+                    
+                    </div>
+                    
+                    
+                
+                
+                </div>
+                <hr>
+                <p class="Copyright">Copyright - Nakshtra Yadav </p>
+            
+            
+            </div>
+        
+        
+        </div>
+        
+        
+</body>
+</html>
