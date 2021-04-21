@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Creating a Web Page for a dealship that sells brand new/ second hand motor bikes" />
+    <meta name="keywords" content="Web Page, Self Created, Motorbike, Ducati, Kawasaki, Dealership" />
+    <meta name="author" content="Nakshtra Yadav"  />
+    <title>All Products - Motorbike Hog</title>
+    <script src="scripts/part2.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+            <div class="logo">
+            <img src="images/logo.png" alt="Logo" width="125">
+            </div>
+            <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="enquire.html">Enquire</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="enhancements.html">Enhancement</a></li>
+                  </ul>
+        </nav>
+            </div>
+        
+        </div>
+        
+        </div>
+   
+ <!-- All Products-->
+        <div class="d_container">
+            <div class="row row-3">
+                <h1 >Product Enquiry Page</h1>
+              </div>
+            <fieldset class="form-1">
+
+            <legend> Personal Details </legend>
+            <form id="enqform" action="payment.html">
+                    <label for="fname" >First Name : </label>
+                    <input type="text" pattern="^[a-zA-Z]+$"  id="F_Name" maxlength="25" name="F_Name" required><br>
+                    <label for="L_Name" >Last Name : </label>
+                    <input type="text" pattern="^[a-zA-Z]+$"  id="L_Name" maxlength="25" required><br>
+                    <label for="email">Email Address : </label>
+                    <input type="text" id="email" required="required" > <br>
+                    
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> Address Details</legend>
+                
+                
+                    <label for="Street_A"> Street Address : </label>
+                    <textarea name="Street_A" id="Street_A" rows="1" cols="70" maxlength="40" required></textarea><br>
+                    
+                    <label for="S_T">Suburb / Town : </label>
+                    <textarea name="S/T" id="S_T" rows="1" cols="70" maxlength="20" required></textarea><br>
+                    
+                    <label for="State"> State : </label>
+                    <select required id="State" name="State" >
+                        <option value="">Please Select</option>
+                        <option>VIC</option>
+                        <option>NSW</option>
+                        <option>QLD</option>
+                        <option>NT</option>
+                        <option>WA</option>
+                        <option>SA</option>
+                        <option>TAS</option>
+                        <option>ACT</option>
+                    
+                    </select>
+                    <label for="Postcode" class="pcpn">Postcode : </label>
+                    <input type="text"  name="Postcode"  maxlength="4"  id="Postcode" pattern="\d{4}" required/>
+                    
+                <label for="p.no" class="pcpn">Phone Number : </label>
+                <input type="text" placeholder="XX-XX-XX-XX-XX" maxlength="10" id="p.no" name="p.no"><br>
+                   
+                    <label >Preferred Contact : </label><br>
+                    <label><input type="radio" value="email" checked> Email</label>
+                    <label><input type="radio" value="post"> Post</label>
+                    <label><input type="radio" value="Phone"> Phone</label>
+                
+                
+            
+            </fieldset><br>
+            <fieldset>
+                <legend>Product Details</legend>
+                
+                    <label >Select Product Category : </label>
+                    <select required id="cat">
+                        <option value=""> Choose A Category </option>
+                        <option> Sports </option>
+                        <option> Cruiser </option>
+                        <option> Multi</option>
+                    
+                    </select><br>
+                    <label>Enter Product Name and Model : </label>
+                    <input type="text" required id="model1">    
+                    <br>
+                    <label>Enquire About : </label>
+                <label>Engine <input type="checkbox" value="engine" checked id="eng" name="eng"></label>
+                <label>Suspension <input type="checkbox" value="suspension" id="sus" name="sus"></label>
+                <label>Frame <input type="checkbox" value="frame" id="frame" name="frame"></label>
+                <label>Chassis <input type="checkbox" value="chassis" id="chass" name="chass"></label>
+                <label>Brake <input type="checkbox" value="Brake" id="brake" name="brake"></label>
+                <label>Wheel <input type="checkbox" value="Wheel" id="wheel" name="wheel" ></label>
+                <label>Instruments <input type="checkbox" value="Instruments" id="instru" name="instru"></label>
+                <label>Other <input type="checkbox" value="Other" id="oth" name="oth"></label><br><br>
+                <label>Quantity : <input type="text" placeholder="Eg. 1, 2, 3" id="quantity1"></label><br>
+                    
+                    <label >Comments : </label><br>
+                <textarea name="cmt" id="cmt" rows="8" cols="70" maxlength="20" required placeholder="Only,if checked 'other'"></textarea><br>
+
+       
+            <p>
+                <input type="submit" value="Buy Now!" id="buynow" class="btn1"/>
+                <input type="reset" value="Reset Form" id="cancel1" class="btn2"/>
+            </p>
+        
+            
+            </fieldset>
+            </div>
+        </form>
+      
+
+        </div>
+        
+        
+        <!--footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Useful Links </h3>
+                        <ul>
+                            <li>Discounts</li>
+                            <li>Terms & Conditions</li>
+                            <li>Return Policy</li>
+                            <li>Contact Us</li>
+                            
+                        </ul>
+                    
+                    
+                    </div>
+                     <div class="footer-col-2">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Instagram</li>
+                           <li>Facebook</li>
+                           <li>Twitter</li>
+                            <li>Youtube</li>
+                            
+                        </ul>
+                    
+                    
+                    </div>
+                    
+                    
+                
+                
+                </div>
+                <hr>
+                <p class="Copyright">Copyright - Nakshtra Yadav </p>
+            
+            
+            </div>
+        
+        
+        </div>
+        
+        
+</body>
+</html>
